@@ -13,6 +13,7 @@
 		0E73B2FA27D4B3BB00DE1CEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E73B2F827D4B3BB00DE1CEA /* Main.storyboard */; };
 		0E73B2FC27D4B3BD00DE1CEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E73B2FB27D4B3BD00DE1CEA /* Assets.xcassets */; };
 		0E73B2FF27D4B3BD00DE1CEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E73B2FD27D4B3BD00DE1CEA /* LaunchScreen.storyboard */; };
+		0E73B30727D4B42800DE1CEA /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E73B30627D4B42800DE1CEA /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0E73B2FB27D4B3BD00DE1CEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E73B2FE27D4B3BD00DE1CEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E73B30027D4B3BD00DE1CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E73B30627D4B42800DE1CEA /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				0E73B2FB27D4B3BD00DE1CEA /* Assets.xcassets */,
 				0E73B2FD27D4B3BD00DE1CEA /* LaunchScreen.storyboard */,
 				0E73B30027D4B3BD00DE1CEA /* Info.plist */,
+				0E73B30627D4B42800DE1CEA /* TableViewCell.swift */,
 			);
 			path = TableViewWithSearchBar;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E73B2F727D4B3BB00DE1CEA /* ViewController.swift in Sources */,
+				0E73B30727D4B42800DE1CEA /* TableViewCell.swift in Sources */,
 				0E73B2F327D4B3BB00DE1CEA /* AppDelegate.swift in Sources */,
 				0E73B2F527D4B3BB00DE1CEA /* SceneDelegate.swift in Sources */,
 			);
